@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'ThinooBold';
+    src: url("../Utils/thinoobold.otf");
+  }
+  @font-face {
+    font-family: 'Thinoo';
+    src: url("../Utils/thinoothin.otf");
+  }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    font-family: 'ThinooBold';
+    font-size: 30px;
+}
+
+.switch-search {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
