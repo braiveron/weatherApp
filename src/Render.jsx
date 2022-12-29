@@ -3,7 +3,7 @@ import "./Render.css";
 import Nav from "./Components/Nav.jsx";
 import Cards from "./Components/Cards.jsx";
 import { useTheme } from "./Components/Theme/Themes";
-import swAlert from "@sweetalert/with-react";
+/* import swAlert from "@sweetalert/with-react"; */
 
 const APIKEY = "e2b3402e56f288d2b7f1d6d0056238ef";
 
@@ -37,12 +37,13 @@ function Render() {
           };
           setCities((oldCities) => [...oldCities, ciudad]);
         } else {
-          swAlert(
+          alert("City not found");
+          /*           swAlert(
             <div>
               <h1>Try Again!</h1>
               <h3>City not found</h3>
             </div>
-          );
+          ); */
         }
       });
   }
