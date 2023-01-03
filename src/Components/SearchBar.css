@@ -63,3 +63,9 @@ input:not(:placeholder-shown) + button {
     overflow: hidden;
   }
   
+
+  @media screen and (max-width: 1100px) {
+    form {
+      width: 16rem;
+    }
+  }

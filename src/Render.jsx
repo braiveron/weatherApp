@@ -59,7 +59,11 @@ function Render() {
     <div className="render" style={{ backgroundColor: theme.background }}>
       <Nav onSearch={onSearch} />
       <div>
-        <Cards cities={cities} onClose={onClose} />
+        {cities.length > 0 ? (
+          <Cards cities={cities} onClose={onClose} />
+        ) : (
+          <h2 className="msgCard">Realiza una busqueda para verla aqui</h2>
+        )}
       </div>
     </div>
   );
