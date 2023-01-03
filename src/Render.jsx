@@ -62,7 +62,7 @@ function Render() {
         {cities.length > 0 ? (
           <Cards cities={cities} onClose={onClose} />
         ) : (
-          <h2 className="msgCard">Realiza una busqueda para verla aqui</h2>
+          <h2 className="msgCard">Do a search to see it here</h2>
         )}
       </div>
     </div>
