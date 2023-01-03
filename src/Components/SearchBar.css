@@ -66,6 +66,7 @@ input:not(:placeholder-shown) + button {
 
   @media screen and (max-width: 1100px) {
     form {
+      margin-top: 15px;
       width: 16rem;
     }
   }
